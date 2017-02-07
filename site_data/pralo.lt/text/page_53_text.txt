@@ -1,0 +1,85 @@
+MeatMaster 2 – tai gamybos, gaminių ženklinimo ir atkrovimo, bei atsekamumo valdymo sistema, skirta mėsos perdirbimo įmonėms. Ji leidžia efektyviai valdyti visą gamybos procesą, greitai užregistruoti duomenis ir perduoti juos į bet kurią įmonėje naudojamą apskaitos programą.
+Išanalizavus mėsos pramonės sektoriaus įmonių įvardijamus probleminius gamybos bei verslo procesų taškus yra sukuriami sprendimai nurodytoms problematikos pašalinti.
+MeatMaster 2 programinę įrangą sudaro 2 lygių architektūra:
+Duomenų bazių serveris
+Klientinė programa (Erpo client)
+Erpo sistemos veikimas yra grindžiamas kliento-serverio architektūra.
+Erpo client (branduolys) yra nepriklausomas nuo sukurtų įskiepių. Todėl įmanomas įvairiapusis šios programinės įrangos adaptavimas pagal kliento įmonės poreikius.
+MeatMaster2 yra sudaryta iš atskirų modulių, todėl nesudėtingai pritaikoma konkrečios įmonės poreikiams.
+MeatMaster2 programinė įranga yra paremta tipu:
+Branduolys (core) + įskiepiai (plugin)
+Tokiu būdu MeatMaster 2 gali būti nesunkiai modifikuojama pagal kliento pageidavimus ir vykdomus gamybos bei verslo procesus.
+MeatMaster 2 privalumai:
+Lengva integracija su įvairiais gamybos įrengimais
+Galimybė tam tikrą sistemos dalies vystymą, integravimą su įrengimais perduoti trečioms šalims (IT sistemų integratoriams)
+Paprastas sistemos moduliavimas pagal kliento poreikius
+H/W nepriklausomybė
+MeatMaster 2
+yra vertinamas klientų, nes
+yra nepriklausomas pramoninės įrangos atžvilgiu
+Įgyvendintas Mūsų programinės įrangos funkcionalumas suteikia galimybę
+MeatMaster 2
+nesudėtingai adaptuoti pagal kliento turimus pramoninius įrengimus.
+Tokiu būdu Klientas išvengia
+:
+Naujos įrangos įsigyjimo kaštų
+Didelės apimties programavimo darbų
+Sistemos įrengimo laiko sąnaudų
+MeatMaster 2 Funkcionalumas
+Patogus duomenų importas/eksportas su išorinėmis verslo valdymo sistemomis
+Pramoninių įrenginių nustatymų įvedimas ir administravimas
+Vartotojų,jų rolių bei darbo vietų administravimas
+Etikečių formatų administravimas ir kalbos vertimų nustatymas
+Distribucijos (maršrutų, reisų) administravimas
+Patogūs įvairių filtrų rinkiniai
+Ženklinimo įskiepis
+– sukurtas analizuojant konkrečių įmonių vidinių procesų problematikas, todėl leidžia išspręsti didžiausias procesų problemines vietas ir užtikrinti darbo našumą bei kokybę.
+Įskiepio funkcionalumas:
+Galimybė ženklinti pagal produktus
+Galimybė ženklinti pagal reisus
+Detali filtrų sistema
+Ženklinamo kiekio kontrolės užtikrinimas
+Patogus pramoninių įrengimų ir darbo vietų susiejimas
+Unikalių lipdukų, pagal kalbos, spausdintuvo, formato bei kliento kodo parametrus, spausdinimas
+MeatMaster2 ženklinimo įskiepis suskirstytas į tris pagrindinius funkcionalumus:
+Duomenų mainai
+Pardavimų užsakymai
+Sistema
+MeatMaster 2 ženklinimo įskiepis “Duomenų mainai”
+Skirtukas “Duomenų mainai” sujungia duomenų importo/eksporto funkcionalumą ir leidžia nustatyti parametrus, skirtus kontroliuoti sisteminį duomenų apsikeitimą.
+Detalūs duomenų apsikeitimo parametrų nustatymai
+Duomenų apsikeitimo planuoklė
+Pilna duomenų apsikeitimo kontrolė
+MeatMaster 2 ženklinimo įskiepis “Pardavimų užsakymai”
+Skirtukas “Pardavimų užsakymai” suteikia galimybę įvesti reikalingą informaciją apie partnerius, jų užsakymų tvarkaraščius bei kitus susijusius duomenis.
+Detalios užsakymų informacijos įvedimas
+Pardavimų užsakymų valdymas
+Prekių sąrašų ir parametrų valdymas
+MeatMaster 2 ženklinimo įskiepis “Sistema”
+Skirtukas “Sistema” sujungia pramoninių įrenginių, ataskaitų, programos vartotojų, jų rolių, produkcijos spausdinių ir kt. detalų parametrų valdymą.
+Galimybė paprastai ir detaliai valdyti sistemos parametrus
+Patogus svarstyklių/spausdintuvų parametrų valdymas
+Etikečių dizaino kūrimo programa
+Kadangi Ženklinimo įskiepis yra kurtas atsižvelgiant į konkrečias problemines mėsos perdirbimo įmonių vietas, todėl yra pilnai detalizuotas ir leidžia valdyti sudėtingiausius procesus
+Produktų ženklinimas:
+Pagal reisus
+Pagal produktus
+MeatMaster 2 “Produkcijos surinkimas” prevencija
+Sisteminis vidinių procesų stebėjimas ir produktų atsekamumas leidžia kontroliuoti surinkimo procesą ir apsaugoti nuo blogų užsakymų surinkimo:
+Informuoja apie netinkamos taros (pagal užsakymą) nuskaitymą
+Praneša jeigu užsakymas nepilnai suženklintas
+Informuoja jeigu užsakymo eilutę surinkinėja kitas vartotojas
+Įspėja jeigu nuskaitoma nežinoma užsakymo eilutė
+Perspėja jeigu po dėžės patvirtinimo yra surinkta daugiau produkcijos nei yra suženklinta
+MeatMaster 2 “Produkcijos surinkimas” užsakymų eksportas
+Po užsakymo surinkimo procedūros patvirtinimo, įskiepis “Produkcijos surinkimas” suformuoja ir eksportuoja duomenis į MeatMaster 2 failą. Šie duomenys yra sudaryti iš tam tikra tvarka suformuotos informacijos apie užsakymo eilutes.
+Eksportuojama informacija apie:
+Užsakymo Nr.
+Kiekį
+Reisą
+Mato Vnt.
+Partijos Nr.
+Pavadinimą
+Gabalų skaičių
+ir pan.
+Klientai:

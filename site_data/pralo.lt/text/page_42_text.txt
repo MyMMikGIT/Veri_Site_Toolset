@@ -1,0 +1,29 @@
+Personalo ir darbo užmokesčio apskaitos sistema, sukurta naudojant ORACLE duomenų bazę, pasižyminčią neribotomis galimybėmis apdorojant ir saugojant didelius duomenų srautus.
+Sistemoje yra fiksuojami ne tik esami duomenys, bet ir duomenų kaitos istorija, o tai leidžia formuoti įvairias atskaitas ir pažymas pasirinktiems periodams, kontroliuoti darbo laiką, perduoti duomenis bankams, Sodrai bei VMI.
+Atsižvelgiant į įstatymų pasikeitimus sistema nuolat atnaujinama, taip pat vystoma, įvertinant klientų  poreikius ir pageidavimus.
+Personalo valdymo sistemos
+duomenų bazėje laikoma:
+informacija apie įmonę, jos struktūrą, darbo vietas ir jų charakteristikas;
+informacija apie esamus ir buvusius įmonės darbuotojus, jų darbinę veiklą;
+asmeninė informacija apie darbuotojus ir su jais susijusius asmenis;
+personalo įsakymai;
+normatyvinė ir pagalbinė informacija;
+ataskaitos, formuojamos pagal specializuotas bei pagal universalias užklausas;
+gautus duomenis galima eksportuoti į MS EXCEL.
+Darbo užmokesčio apskaitos sistema skirta  darbo laiko, darbo užmokesčio, mokesčių ir įmokų SoDrai, duomenų VMI ir statistikos departamentui apskaitai.
+Darbo užmokesčio apskaitos sistemos duomenų bazėje laikoma:
+Informacija – su darbo užmokesčio skaičiavimu susijusių parametrų (žinynų ir
+klasifikatorių) tvarkymu, skaičiavimo taisyklių aprašymu, Vyriausybės nustatytų dydžių
+ir jų pasikeitimų fiksavimu;
+Padalinių ir asmeninių grafikų sudarymas, informacija apie darbo laiko apskaitą, dirbto
+laiko kontrolė;
+Darbo laiko apskaitos žiniaraščių formavimas ir spausdinimas;
+Paskyrų duomenų tvarkymas (įmonės specifikacijai pritaikomi vienetinio ir brigadinio
+atlyginimo skaičiavimai);
+Atlyginimo, su mokesčių atskaitymu, tvarkymas, atostoginių, išeitinių pašalpų ir
+kompensacijų už neišnaudotas atostogas, nedarbingumo pažymėjimų duomenų
+fiksavimas, pašalpų iš įmonės lėšų skaičiavimas;
+Išmokėjimų formavimo, ataskaitų įmonei, VSDFV, VMI, statistinių ataskaitų, pažymų
+apie pajamas duomenų formavimas;
+Importo duomenų į bankų ir buhalterinės apskaitos programas formavimas.
+Jeigu Jus sudomino šis produktas ar norėtumėte daugiau sužinoti apie jo panaudojimo galimybes, rašykite mums užpildę žemiau esančią formą arba paskambinkite telefonu +370 5 230 1110.

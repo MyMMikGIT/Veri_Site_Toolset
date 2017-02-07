@@ -1,0 +1,26 @@
+Sandėlio modulis
+Sandėlio modulis
+Maksimizuokite savo sandėlio efektyvumą
+Moderni sandėlio valdymo sistema, veikianti „debesyje“
+Gerinkite darbų įvykdymą ir procesų trukmę
+Geriau valdykite savo sandėlį su išmania dvejybine inventorizacijos sistema.
+Gaukite efektyviausius atsargų kaupimo metodus ir pagerinkite vidines operacijas.
+Odoo dvejybinis inventorius neturi atsargų įvedimo, nurašymo ar transformacijų. Visos operacijos yra tik atsargų judėjimas tarp skirtingų  vietų.
+Sumažinkite atsargų kiekius ir išvenkite perdidelio atsargų kiekio
+Pasinaudokite automatiniais atsargų papildymo metodais
+Sumažinkite atsargų kiekius nerizikuodami likti be atsargų. Odoo sandėlio modulis yra integruotas su
+Pirkimų moduliu
+. Galima nustatyti, kad atsargoms pasiekus minimalų kiekį, sistema automatiškai pateiktų užsakymą tiekėjams.
+Mėgaukitės pažangiomis ir automatizuotomis funkcijomis
+Pažangios sitemos su ypatingai paprasta vartotojo sąsaja
+Vos keliais paspaudimais valdykite kompleksinius siuntimo, perkrovimo ir keleto sandėlių darbus.
+Kompleksinis siuntimas
+Vos keliais paspaudimais galite sukurti kompleksinio siuntimo sąlygas skirtingiems produktams, kad jie būtų automatiškai išsiunčiami pirkėjui.
+Perkrovimas
+Užsakykite prekes pagal svorį, dydį, kiekį ir paskirstykite į tam tikras vietas, kad nauja siunta lengvai būtų persiunčiama į jai priklausančią vietą.
+Keletas sandėlių
+Sukurkite sąlygas, kad atsargos būtų paskirstomos automatiškai išlaikant optimalius atsargų kiekius.
+Sekite kiekvieną atsargų judėjimą
+Galite stebėti savo atsargas sekdami praeities ir ateities inventoriaus pirkimus. Sekite kiekvieną atsargų pajudėjimą ne tik savo sandėlyje, bet ir visur, kur tik jos keliauja. Peržiūrėdami visus atsekamumo srautus pastebėsite, kur ir kas nutinka tam tikram produktui ar siuntai.
+Stebėkite rezultatus, kad jūsų sandėlis dirbtų pelningai
+Gautike aiškią ir pilną ataskaitą, kad galėtumėte priimti tinkamus sprendimus. Susikurkite asmeninį prietaisų skydą (angl. Dashboard), kad lengvai ir greitai galėtumėte analizuoti norimus rodiklius. Su „real-time“ ataskaitomis, kurias gali sukurti ir dalintis bet kas įmonėje, galite stebėti esamą situaciją.

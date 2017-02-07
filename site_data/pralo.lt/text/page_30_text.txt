@@ -1,0 +1,63 @@
+Gamybos modulis
+Gamybos modulis
+Naujas būdas valdyti gamybą
+Modernus sprendimas senoms problemoms spręsti
+Nebereikia sekti laiko
+Pagal darbų centro panelėje matuojamus gamybos laikus tiksliai planuokite savo gamybą.
+Komunikacija esamuoju laiku
+Operacijų metu rodykite užduotis, įspėkite darbuotojus apie kokybę, pakeitimus ir t.t..
+Viskas viename
+Visiškai integruoti MRP, Kokybė, Priežiūra ir PLM.
+Parduotuvės automatizavimas
+Naudodamiesi API, realiu laiku gaukite informaciją iš savo įrengimų.
+Viskas, ko Jums reikia vienoje sistemoje
+Paprasta+Galinga = Lean
+Inžinierija
+PLM                                        ⇒
+Žaliavų dokumentai
+Versijos
+Gamybos inžinerija
+Maršrutai                     ⇒
+Užduotys
+Planavimas                               ⇐
+Valdymo skydas
+Darbo užsakymas
+Tiekimo grandinė
+MPS
+Maršrutai
+Pirkimų taisyklės
+Kokybė
+Kontrolės taškai
+Patikrinimai (SPC)
+Pranešimai
+Priežiūra
+Prietaisų valdymas
+Priežiūros užklausos
+Darbų centro valdymo skydas
+Laiko sekimas
+Užduočių rodymas
+Produkcijos registracija
+Integracija
+Kokybės patikrinimai
+Įspėjimai veiklos metu
+Įrašymas
+Serijos numeris
+Pasitelkę tikslius užpildymo pasiūlymus optimizuokite savo inventorių
+Naudokite taisykles gamybai pagal užsakymą, minimalių atsargų taisykles arba pagrindinės gamybos grafiką, kad automatizuotumėte automatinius pirkimus. Leiskite planavimui apskaičiuoti viską už jus. Naudokite maršrutus, apribojimus ir kitus įrankius, kad optimizuotumėte atsargų lygius, bei išvengtumėte trūkumo.
+Brūkšniniai kodai – netradiciniai
+Naudodami partijas, serijos numerius ar neindentifikuotus produktus, galite naudoti brūkšninius kodus, kad pagreitintumėte kiekvieną operacijų etapą.
+Priėmimo kontrolė
+Surinkimas
+Pakavimas
+Gamybos užsakymai
+Darbų užsakymai
+… ir daug daugiau
+Puikios ataskaitos ir Esminiai Veiklos Rodikliai (angl.
+KPIs)
+Visa reikalinga informacija – čia ir dabar!
+Kontroliuokite savo produktyvumą su esamojo laiko Bendra Įregimų Efektyvumo (angl. Overall Equipment Efficiency – OEE) ataskaita ir sekite 6 didžiausias netektis
+TPM.
+Sekite priežiūros Esminius veiklos rodiklius (angl. KPI), tokius kaip Remonto laiką ir Įrenginių darbo laiką. Sukurkite individualius prietaisų skydelius, kad realiu laiku galėtumėte sekti darbus.
+Dinamiškos ataskaitos viskam: nuo atsekamumo kainos, darbų analizės, bendro įrengimų efektyvumo
+,
+kurios leidžia priimti geresnius sprendimus versle.
