@@ -613,6 +613,7 @@ class Translator(Common_Paths):
                     print "mk_eng_txt_files: TRANSLATING IN REWRITE MODE"
                     text_output = self.get_text()
 
+
                 elif not os.path.exists(self.eng_p_text_f_path):
                     print "mk_eng_txt_files: TRANSLATING IN ONLY ONCE MODE"
                     text_output = self.get_text()
@@ -623,9 +624,9 @@ class Translator(Common_Paths):
 
             # print "WRITING TRANSLATED OUTPUT TO FILE: ", self.eng_p_text_f_name
             # c_m.simply_write(text_output, self.text_eng_folder_path, self.eng_p_text_f_name)                  
+                data_set.append(self.eng_p_text_f_name) # updating dataset with eng_text file name
+                self.new_page_list.append(data_set) # updating page list with updated entry
 
-            data_set.append(self.eng_p_text_f_name) # updating dataset with eng_text file name
-            self.new_page_list.append(data_set) # updating page list with updated entry
 
         print "mk_eng_txt_files: DONE TRANSLATING SITE %s " % self.domain
         print "mk_eng_txt_files: UPDATING PAGE LIST WITH ENG TEXT FILE NAMES"

@@ -65,13 +65,13 @@ class Veri_GUI(object):
         self.change_noteb = ttk.Style()
         self.change_tab = ttk.Style()
         self.change_noteb.configure('TNotebook', tabposition='wn')
-        self.change_tab.configure('TNotebook.Tab', borderwidth=5, width = 20)
+        self.change_tab.configure('TNotebook.Tab', borderwidth=5, width = 50)
         #/
         # __init__: ttk widget instantiation
         self.noteb = ttk.Notebook(self.cont)
         self.button_frame = ttk.Frame(self.cont, relief='sunken')
-        self.good_button = Button(self.button_frame, text='VERI_GOOD', width=20, height=5, bg='green', command=self.veri_good_b)
-        self.bad_button = Button(self.button_frame, text='VERI_BAD', width=20, height=5, bg='red', command=self.veri_bad_b)
+        self.good_button = Button(self.button_frame, text='VERI_GOOD', width=21, height=5, bg='green', command=self.veri_good_b)
+        self.bad_button = Button(self.button_frame, text='VERI_BAD', width=21, height=5, bg='red', command=self.veri_bad_b)
         self.h_light_frame = Frame(self.cont, relief='raised', background='yellow', borderwidth='3')
         self.lang_b_frame = Frame(self.cont, relief='raised')
         self.eng_b = Button(self.lang_b_frame, text='english', relief='raised', command=self.load_eng_text)
@@ -79,7 +79,7 @@ class Veri_GUI(object):
         
         # __init__: text box for highlight input
         self.input_header = ttk.Label(self.h_light_frame, text='TEST_key', background='yellow')
-        self.input_as_text = Text(self.h_light_frame, width=20, height=39, borderwidth=3, relief='sunken')
+        self.input_as_text = Text(self.h_light_frame, width=18, height=39, borderwidth=3, relief='sunken')
         #/
 
         # __init__: gridding STATIC gui components
@@ -205,9 +205,10 @@ class Veri_GUI(object):
                 adjusted_page_list.append(page_list_copy[ind])
         base_url_entry = copy(adjusted_page_list[0])
         adjusted_page_list.pop(0)
-        sorted_adjusted = sorted(adjusted_page_list, reverse=True)    
+        sorted_adjusted = sorted(adjusted_page_list, reverse=True)
         #mk_adjusted_page_list: base url to first tab position
         sorted_adjusted.insert(0, base_url_entry)
+        print "sorted_adjusted: %r" % sorted_adjusted
 
         #mk_adjusted_page_list: handling cases when site has less than 20 pages
         if len(sorted_adjusted) > 20:
@@ -216,7 +217,6 @@ class Veri_GUI(object):
         else:
             print "mk_adjusted_page_list: SITE HAS LESS THA 20 PAGES"
             page_list_up_to_20 = sorted_adjusted
-
         return page_list_up_to_20
 
     # CALLED FROM METHOD: __init__
@@ -241,6 +241,38 @@ class Veri_GUI(object):
         adjusted_page_list = self.mk_adjusted_page_list(page_list) # sorting list according to unique page text length
         return adjusted_page_list
 
+    def fit_links_to_50(self, url_to_split):
+        """ WRAPS URL BY: SPLITTTING URL WITH NEW LINES IN SEPARATOR POSITION,
+            IF IT IS LONGER THAN 50 CHARACTERS"""
+
+        if len(url_to_split) > 50:
+
+
+            # step1: finding all non alphanumerical characters which can be used as separators
+            regex = ur"[^a-z0-9]"
+            positions_iter = re.finditer(regex, url_to_split) # finding positions of separators
+            positions = [p.start(0) for p in positions_iter] # listing
+
+            insert_new_line_p_list = []
+            # step2: finding new line insert positions and offsetting according to new line character number to be added
+            for split_50 in range(50, len(url_to_split), 50):
+                for ind in range(len(positions)):
+                    if positions[ind] > split_50:
+                        # taking the item before and offseting it for new lines to be inserted
+                        insert_new_line_p_list.append((positions[(ind - 1)] + len(insert_new_line_p_list)))
+                        break
+            # step3: inserting new lines
+            for insert_p in insert_new_line_p_list:
+                l_url_to_split = list(url_to_split)
+                l_url_to_split.insert(insert_p, "\n")
+                url_to_split = "".join(l_url_to_split)
+
+            return url_to_split
+
+        else:
+            return url_to_split
+        
+
     # CALLED FROM CLASS METHOD:
     # - __init__
     # - veri_good_b
@@ -263,7 +295,9 @@ class Veri_GUI(object):
             url_domain = c_m.strip_to_domain(base_url)
             domain_folder = url_domain + "\\"
             page_link_url = adjusted_page_list[ind][1]
-            active_link_url_no_domain = page_link_url.replace(base_url,'...')
+            active_link_url_no_domain = page_link_url.replace(base_url,'')
+            active_link_url_no_domain = self.fit_links_to_50(active_link_url_no_domain)
+            print "laod_tabs: TEST ---------------- active_link_url_no_domain %r" % active_link_url_no_domain
             self.active_link_url_no_domain_list.append(active_link_url_no_domain)
             active_tab = self.t_tab_list[ind]
 
